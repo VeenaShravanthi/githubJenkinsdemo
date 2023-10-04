@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-04T14:14:04 CDT" name="Default suite" finished-at="2023-10-04T14:14:09 CDT" duration-ms="5555">
+  <suite started-at="2023-10-04T14:26:30 CDT" name="Default suite" finished-at="2023-10-04T14:26:33 CDT" duration-ms="3248">
     <groups>
     </groups>
-    <test started-at="2023-10-04T14:14:04 CDT" name="Default test" finished-at="2023-10-04T14:14:09 CDT" duration-ms="5555">
+    <test started-at="2023-10-04T14:26:30 CDT" name="Default test" finished-at="2023-10-04T14:26:33 CDT" duration-ms="3248">
       <class name="GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage@5778826f]" started-at="2023-10-04T14:14:04 CDT" name="setup" finished-at="2023-10-04T14:14:09 CDT" duration-ms="5272" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage@5778826f]" started-at="2023-10-04T14:26:30 CDT" name="setup" finished-at="2023-10-04T14:26:33 CDT" duration-ms="2575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateHomePage()[pri:0, instance:GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage@5778826f]" started-at="2023-10-04T14:14:09 CDT" name="validateHomePage" finished-at="2023-10-04T14:14:09 CDT" duration-ms="41" status="PASS">
+        <test-method signature="validateHomePage()[pri:0, instance:GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage@5778826f]" started-at="2023-10-04T14:26:33 CDT" name="validateHomePage" finished-at="2023-10-04T14:26:33 CDT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage@5778826f]" started-at="2023-10-04T14:14:09 CDT" name="teardown" finished-at="2023-10-04T14:14:09 CDT" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:GitJenkinsDemo.GitJenkinsDemo.ValidateGoogleHomePage@5778826f]" started-at="2023-10-04T14:26:33 CDT" name="teardown" finished-at="2023-10-04T14:26:33 CDT" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
