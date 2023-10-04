@@ -33,6 +33,7 @@ public class ValidateGoogleHomePage {
 		{
 			driver.findElement(By.id("APjFqb")).sendKeys("Numpy Ninja");
 			driver.findElement(By.name("btnK")).click();
+			driver.getTitle();
 		}
 		
 		@AfterTest
