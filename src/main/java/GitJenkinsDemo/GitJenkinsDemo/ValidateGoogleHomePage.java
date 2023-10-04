@@ -2,6 +2,7 @@ package GitJenkinsDemo.GitJenkinsDemo;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -30,7 +31,8 @@ public class ValidateGoogleHomePage {
 		@Test
 		public void validateHomePage()
 		{
-			
+			driver.findElement(By.id("APjFqb")).sendKeys("Numpy Ninja");
+			driver.findElement(By.name("btnK")).click();
 		}
 		
 		@AfterTest
